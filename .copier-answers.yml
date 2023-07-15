@@ -1,0 +1,40 @@
+---
+## Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v2.0.1
+_src_path: gh:kc-workspace/asdf-plugin-template.git
+addon_yaml:
+    archive: false
+    checksum: false
+    download: false
+    fetch: true
+    git: false
+    github: true
+    gpg: false
+    help: true
+    install: true
+    package: false
+    python: true
+    system: false
+    tags: true
+    version: false
+app_desc: A library and CLI app for rendering project templates.
+app_name: copier
+app_repo: https://github.com/copier-org/copier
+app_type: python
+app_website: https://copier.readthedocs.io/en/latest/
+custom_bin_paths: bin
+custom_non_stable_version: (-src|-dev|-latest|-stm|[-\.]rc|-alpha|-beta|[-\.]pre|-next|snapshot|master)
+custom_require_commands: python
+install_map_enabled: true
+install_map_method: link
+install_map_yaml:
+    venv/bin/copier: bin/copier
+plugin_author: Kamontat Chantrachirathumrong
+plugin_name: asdf-copier
+plugin_org: kc-workspace
+plugin_repo: https://github.com/kc-workspace/asdf-copier.git
+python_name: copier
+source_enabled: false
+test_cmd_args: --version
+version_file_enabled: false
+version_prefix: v
