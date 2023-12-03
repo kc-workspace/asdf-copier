@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/kc-workspace/asdf-copier/compare/v1.0.0...v1.0.1) (2023-12-03)
+
+
+### Improvements
+
+* update plugin from template [autocommit] ([50d42e7](https://github.com/kc-workspace/asdf-copier/commit/50d42e7df53f1c193e149154168f6cf03d97c65e))
+
 ## 1.0.0 (2023-11-06)
 
 
